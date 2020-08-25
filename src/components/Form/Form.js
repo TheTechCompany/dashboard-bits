@@ -36,7 +36,7 @@ function _Form(props){
   );
 }
 
-export default syled(_Form)`
+export default styled(_Form)`
   display: flex;
   flex-direction: column;
 `
