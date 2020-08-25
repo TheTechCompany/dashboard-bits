@@ -1,6 +1,6 @@
 {
   "name": "@thetechcompany/dasboard-bits",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Dashboard components for easy setup and customization",
   "main": "dist/rinse.js",
   "scripts": {
