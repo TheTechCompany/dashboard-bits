@@ -3,8 +3,6 @@ import React from 'react';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 
-import './EditList.css';
-
 export default function _EditList(props){
   const renderField = (obj) => {
     return (

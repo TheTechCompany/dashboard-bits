@@ -2,9 +2,9 @@ import React from 'react';
 
 import InputAdornment from '@material-ui/core/InputAdornment';
 import TextField from '@material-ui/core/TextField';
-import './Form.css';
+import styled from 'styled-components';
 
-export default function _Form(props){
+function _Form(props){
   const renderField = (field) => {
     switch(field.type){
       case "STRING":
@@ -28,10 +28,15 @@ export default function _Form(props){
     }
   }
   return (
-    <div className="form-fields">
+    <div className={props.className}>
       {(props.fields || []).map((x) => 
         renderField(x)
       )}
     </div>
   );
 }
+
+export default syled(_Form)`
+  display: flex;
+  flex-direction: column;
+`
